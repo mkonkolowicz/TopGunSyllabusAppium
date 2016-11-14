@@ -19,10 +19,10 @@ public class launchapp
 	    capabilities.setCapability("appiumVersion", "1.6.0");
 	    
 	    WebDriver driver = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-	    WebElement phasesLink = driver.findElement(By.id("UISeePhases"));
+	    WebElement phasesLink = driver.findElement(By.id("UIPhases"));
 	    phasesLink.click();
-	    WebElement phasesTable = driver.findElement(By.id("UIPhaseTable"));
-	    boolean isPhasesTableEnabled = phasesTable.isEnabled();
+	    WebElement phases = driver.findElement(By.id("UIPhase"));
+	    boolean isPhasesTableEnabled = phases.isEnabled();
 	    driver.quit();
 	}	
 }
