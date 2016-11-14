@@ -21,7 +21,7 @@ public class launchapp
 	    WebDriver driver = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
 	    WebElement phasesLink = driver.findElement(By.id("UISeePhases"));
 	    phasesLink.click();
-	    WebElement phasesTable = driver.findElement(By.id("UIMainPhaseTable"));
+	    WebElement phasesTable = driver.findElement(By.id("UIPhaseTable"));
 	    boolean isPhasesTableEnabled = phasesTable.isEnabled();
 	    driver.quit();
 	}	
