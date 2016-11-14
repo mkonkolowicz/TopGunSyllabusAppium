@@ -17,11 +17,12 @@ public class launchapp
 	    capabilities.setCapability("app", "/Users/mkonkolowicz-/Documents/Apps/TopGunSyllabusiPhone.app");
 	    capabilities.setCapability("deviceOrientation", "portrait");
 	    capabilities.setCapability("appiumVersion", "1.6.0");
-//	    capabilities.setCapability("fullReset", "true");
 	    
 	    WebDriver driver = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-	    WebElement phasesLink = driver.findElement(By.className("UIPhases"));
+	    WebElement phasesLink = driver.findElement(By.id("UISeePhases"));
 	    phasesLink.click();
+	    WebElement phasesTable = driver.findElement(By.id("UIMainPhaseTable"));
+	    boolean isPhasesTableEnabled = phasesTable.isEnabled();
 	    driver.quit();
 	}	
 }
