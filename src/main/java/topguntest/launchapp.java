@@ -13,7 +13,7 @@ public class launchapp
 	    DesiredCapabilities capabilities = new DesiredCapabilities();
 	    capabilities.setCapability("platformName", "iOS");
 	    capabilities.setCapability("deviceName", "iPhone 6s");
-	    capabilities.setCapability("platformVersion", "10.0");
+	    capabilities.setCapability("platformVersion", "10.1");
 	    capabilities.setCapability("app", "/Users/mkonkolowicz-/Documents/Apps/TopGunSyllabusiPhone.app");
 	    capabilities.setCapability("deviceOrientation", "portrait");
 	    capabilities.setCapability("appiumVersion", "1.6.0");
