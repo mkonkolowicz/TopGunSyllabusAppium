@@ -34,6 +34,10 @@ public class TopGunSyllabusSauceShould {
 		caps.setCapability("platform", "MAC");
 		caps.setCapability("browserName", "");
 		caps.setCapability("app","sauce-storage:TopGunSyllabusiPhone.zip");
+		caps.setCapability("version", "1.0");
+		caps.setCapability("name", "Top Gun Syllabus Launch Test");
+		caps.setCapability("tags", "iOS");
+		caps.setCapability("build", "20161129.12");
 	}
 	
 	@Test
