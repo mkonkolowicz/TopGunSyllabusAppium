@@ -13,7 +13,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class launchapp 
+public class TopGunSyllabusShould 
 {
 	@Test
 	public static void main(String[] args) throws Exception {

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="maciekmacbookpro" name="topguntest.AppTest" tests="1" failures="0" timestamp="30 Nov 2016 21:40:38 GMT" time="0.016" errors="0">
+  <testcase name="testApp on instance testApp(topguntest.AppTest)" time="0.006" classname="topguntest.AppTest"/>
+</testsuite>
