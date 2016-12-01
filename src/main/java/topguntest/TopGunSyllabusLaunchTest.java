@@ -7,19 +7,16 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.ios.IOSDriver;
-
-import static org.junit.Assert.*;
-
 import java.net.URL;
 import java.util.List;
 
-
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class TopGunSyllabusLaunchesTests 
+public class TopGunSyllabusLaunchTest 
 {
 	@Test
-	public static void applicationLaunchesTest(String[] args) throws Exception {
+	public void main(String[] args) throws Exception {
 		 
 	    DesiredCapabilities capabilities = new DesiredCapabilities();
 	    capabilities.setCapability("platformName", "iOS");

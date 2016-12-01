@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: topguntest.ApplicationLaunchTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 283.249 sec <<< FAILURE! - in topguntest.ApplicationLaunchTest
+test(topguntest.ApplicationLaunchTest)  Time elapsed: 283.249 sec  <<< ERROR!
+org.openqa.selenium.UnsupportedCommandException: 
+ERROR The test with session id 5be1e7a7374a4c39b6eef0c716809c16 has already finished, and can't receive further commands.
+You can learn more at https://saucelabs.com/jobs/5be1e7a7374a4c39b6eef0c716809c16
+For help, please check https://wiki.saucelabs.com/display/DOCS/Common+Error+Messages
+Command duration or timeout: 283.00 seconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'maciekmacbookpro', ip: '10.4.206.201', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: io.appium.java_client.ios.IOSDriver
+	at topguntest.ApplicationLaunchTest.test(ApplicationLaunchTest.java:46)
+

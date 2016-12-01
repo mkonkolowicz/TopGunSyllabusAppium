@@ -1,6 +1,7 @@
 package topguntest;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import java.net.URL;
 
@@ -15,9 +16,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.ios.IOSDriver;
-import junit.framework.TestCase;
 
-public class TopGunSyllabusSauceShould {
+public class TopGunSyllabusLaunchSauceTest {
 	final String USERNAME = "mkonkolowiczsauce";
 	final String ACCESS_KEY = "50956cd7-36da-4937-bb93-697a107f11c9";
 	final String mySauceURL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
